@@ -5,11 +5,9 @@
 
 .array-container {
     position: relative; 
-    height: 50vh;
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
+ 
 
 body > #root >div {
     height: 100%;
