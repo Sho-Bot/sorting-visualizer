@@ -6,7 +6,7 @@ import {quickSortAnimations} from '../sortingAlgorithms/quickSort.js'
 import './SortingVisualizer.css';
 
 // Change this value for the speed of the animations.
-const ANIMATION_SPEED_MS = 3;
+const ANIMATION_SPEED_MS = 1;
 
 // Change this value for the number of bars (value) in the array.
 let NUMBER_OF_ARRAY_BARS = 150;
