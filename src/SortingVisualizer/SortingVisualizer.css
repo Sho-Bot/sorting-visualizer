@@ -1,0 +1,214 @@
+.nav-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.array-container {
+    position: relative; 
+    margin-top: 100px;
+}
+
+body > #root >div {
+    height: 100%;
+    width: 100%;
+}
+
+
+.array-bar {
+    width: 5px;
+    background-color: lightslategray ;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+
+.alg-button {
+    background-color: transparent;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    margin-right: 30px;
+    overflow: hidden;
+    transition: 1s all ease;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    opacity: 0.7;
+    
+}
+
+p {
+    color: #f0f0f0;
+    font-size: 16px;
+}
+
+/*
+.alg-button:hover {
+    opacity: 1;
+    background-color: #fc5185;
+    transition: background-color 0.75s;
+}
+
+.alg-button:active {
+    opacity: 1;
+}
+
+*/
+
+.slider-container {
+    position: relative;
+    top: 60px;
+
+
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  border-radius: 12px;
+  width: 30%; /* Full-width */
+  height: 10px; /* Specified height */
+  background: lightslategray; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 50%;
+  background: #f0f0f0; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 50%;
+  background: #f0f0f0; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+/*
+.slider {
+    -webkit-appearance: none;
+    width: 150px;
+    height: 10px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.slider::after {
+    content: '100';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 80%;
+    top: 26%;
+}
+
+.slider::before {
+    content: '0';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 12%;
+    top: 26%;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1px;
+    height: 1px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 35px;
+    opacity: 0.7;
+}
+*/
+
+
+/*
+.btn {
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 15px;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+*/
+
+/*
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #fc5185;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn1 {
+    color: #f0f0f0;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.btn1:hover {
+    color: #fc5185;
+    border: 2px solid #fc5185;
+    border-radius: 4px;
+}
+
+
+.btn1::before {
+    width: 0;
+    height: 100%;
+}
+
+.btn1:hover::before {
+    width: 100%;
+}
+
+.btn1:focus {
+    color: rgb(15, 32, 39);
+    border: 2px solid rgb(15, 32, 39);
+    border-radius: 4px;
+    background-color: #fc5185;
+}
+
+*/
