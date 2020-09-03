@@ -6,10 +6,10 @@ import {quickSortAnimations} from '../sortingAlgorithms/quickSort.js'
 import './SortingVisualizer.css';
 
 // Change this value for the speed of the animations.
-const ANIMATION_SPEED_MS = 1;
+const ANIMATION_SPEED_MS = 1.5;
 
 // Change this value for the number of bars (value) in the array.
-let NUMBER_OF_ARRAY_BARS = 150;
+let NUMBER_OF_ARRAY_BARS = 120;
 
 // This is the default color of the array bars.
 const BASE_COLOR = 'lightslategrey' //'#f0f0f0';

@@ -5,7 +5,10 @@
 
 .array-container {
     position: relative; 
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 body > #root >div {
